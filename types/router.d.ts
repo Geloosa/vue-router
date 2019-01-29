@@ -16,6 +16,7 @@ export type NavigationGuard<V extends Vue = Vue> = (
 export declare class VueRouter {
   constructor (options?: RouterOptions);
 
+  options?: RouterOptions;
   app: Vue;
   mode: RouterMode;
   currentRoute: Route;
